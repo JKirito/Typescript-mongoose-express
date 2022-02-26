@@ -11,7 +11,7 @@ docker run -p 27017:27017 mongo
 3) Test the api on localhost:3000
 
 API paths:- 
-/users/
-/users/create - {name: string,email:string,accounts: [string],age: number}
-/accounts/
-/accounts/createAccount - {amount: number,transaction: [Schema.Types.ObjectId], owner: Schema.Types.ObjectId}
+- /users/
+- /users/create - {name: string,email:string,accounts: [string],age: number}
+- /accounts/
+- /accounts/createAccount - {amount: number,transaction: [Schema.Types.ObjectId], owner: Schema.Types.ObjectId}
